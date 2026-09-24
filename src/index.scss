@@ -1,0 +1,36 @@
+// Global Variables
+$materialBlue500: #2196f3;
+$headingFontFamily: "Raleway", sans-serif;
+$mainFontFamily: "Open Sans", sans-serif;
+$emeraldGreen: #2ecc71;
+$blackColor: #222;
+$grayColor: #999;
+$whiteColor: #fff;
+$mainBackgroundColor: #fff;
+$secondaryBackgroundColor: #999;
+
+// Global Styles
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: $mainFontFamily;
+  background-color: $mainBackgroundColor;
+  color: $blackColor;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+
+// Elements Styles
