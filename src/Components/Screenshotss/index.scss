@@ -1,0 +1,12 @@
+@use "../../styles/variables" as *;
+#Screenshotss {
+  .ScreenshotssImages {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    img {
+      width: 23%;
+    }
+  }
+}

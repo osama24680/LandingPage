@@ -2,6 +2,7 @@ import Benefits from "./Components/Benefits";
 import Header from "./Components/Header";
 import HowItWork from "./Components/HowItWork";
 import Navbar from "./Components/Navbar";
+import Screenshotss from "./Components/Screenshotss";
 import WatchDemo from "./Components/WatchDemo";
 
 interface IProps {}
@@ -13,6 +14,7 @@ const App = ({}: IProps) => {
       <Benefits />
       <HowItWork />
       <WatchDemo />
+      <Screenshotss />
     </div>
   );
 };
