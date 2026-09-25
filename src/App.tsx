@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar";
 import Pricing from "./Components/Pricing";
 import Reviews from "./Components/Reviews";
 import Screenshotss from "./Components/Screenshotss";
+import Subscribe from "./Components/Subscribe";
 import WatchDemo from "./Components/WatchDemo";
 
 interface IProps {}
@@ -21,6 +22,7 @@ const App = ({}: IProps) => {
       <Reviews />
       <Pricing />
       <Download />
+      <Subscribe />
     </div>
   );
 };

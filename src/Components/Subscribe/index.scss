@@ -1,0 +1,44 @@
+@use "../../styles/variables" as *;
+#Subscribe {
+  height: 35vh;
+  background-image: url("../../assets/bg-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .overlayLayer {
+    background-color: rgba(33, 150, 243, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 100px 0;
+
+    form {
+      width: 60%;
+      margin: auto;
+      display: flex;
+      input {
+        outline: none;
+        border: none;
+        padding: 15px 20px;
+        background-color: $whiteColor;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        width: 100%;
+      }
+      button {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 10px 20px;
+        outline: none;
+        border: none;
+        background-color: $emeraldGreen;
+        color: $whiteColor;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+    }
+  }
+}
