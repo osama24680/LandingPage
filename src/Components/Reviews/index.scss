@@ -1,0 +1,51 @@
+@use "../../styles/variables" as *;
+#Reviews {
+  .allReviews {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    .review {
+      width: 30%;
+      background-color: $grayBackgroundColor;
+      padding: 40px;
+      color: $grayColor;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      transition: 0.6s;
+      border-radius: 10px;
+      div {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        p {
+          color: #222222;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 18px;
+          margin-bottom: 0;
+          text-transform: capitalize;
+        }
+        .stars {
+          color: gold;
+        }
+      }
+      &:hover {
+        background-color: $materialBlue500;
+        color: $whiteColor;
+        div {
+          p {
+            color: gold;
+            transform: scale(1.6);
+            transition: 0.6s;
+          }
+          .stars {
+            transform: scale(1.6);
+            transition: 0.6s;
+          }
+        }
+      }
+    }
+  }
+}
