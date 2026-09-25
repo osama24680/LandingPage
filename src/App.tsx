@@ -1,3 +1,4 @@
+import Benefits from "./Components/Benefits";
 import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
 
@@ -7,6 +8,7 @@ const App = ({}: IProps) => {
     <div className="">
       <Navbar />
       <Header />
+      <Benefits />
     </div>
   );
 };

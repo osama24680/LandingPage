@@ -1,0 +1,32 @@
+@use "../../styles/variables" as *;
+.benefitsItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  .item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 40px;
+    svg {
+      color: $materialBlue500;
+      font-size: 45px;
+    }
+    h3 {
+      color: $blackColor;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1;
+      margin: 19px 0;
+      text-transform: capitalize;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 0;
+      color: $grayColor;
+    }
+  }
+}

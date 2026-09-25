@@ -29,3 +29,25 @@ li {
   width: 70%;
   margin: 0 auto;
 }
+section {
+  padding: 100px 0;
+}
+
+.headLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  h2 {
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 36px;
+  }
+  p {
+    color: $grayColor;
+    font-size: 16px;
+  }
+}
