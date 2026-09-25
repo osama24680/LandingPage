@@ -32,6 +32,9 @@ li {
 section {
   padding: 100px 0;
 }
+section:nth-child(even) {
+  background-color: $grayBackgroundColor;
+}
 
 .headLine {
   display: flex;

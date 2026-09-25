@@ -9,10 +9,7 @@ const Benefits = () => {
   return (
     <section id="benefitsSection">
       <div className="container">
-        <HeadLine
-          head={data[0].benefitsHead}
-          paragraph={data[0].benefitsParagraph}
-        />
+        <HeadLine head={data[0].head} paragraph={data[0].paragraph} />
         <div className="benefitsItems">
           <div className="item">
             <GrGroup />

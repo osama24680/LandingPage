@@ -1,0 +1,41 @@
+@use "../../styles/variables" as *;
+#HowItWork {
+  .howImage {
+    text-align: center;
+    margin: 50px;
+  }
+  .howSteps {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    .howStepsItem {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 30%;
+      .howNumber {
+        width: 60px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: #3498db;
+        font-size: 24px;
+        border: 2px solid #3498db;
+        margin-right: 30px;
+      }
+      h3 {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+      }
+    }
+  }
+}

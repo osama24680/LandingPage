@@ -1,11 +1,15 @@
 interface dataTypes {
-  benefitsHead: string;
-  benefitsParagraph: string;
+  head: string;
+  paragraph: string;
 }
 export const data: dataTypes[] = [
   {
-    benefitsHead: `Headline of benefits`,
-    benefitsParagraph: `we shows only the best websites, portfolios ans landing pages built
+    head: `Headline of benefits`,
+    paragraph: `we shows only the best websites, portfolios ans landing pages built
         completely with passion, simplicity & creativity !`,
+  },
+  {
+    head: `How does it work ?`,
+    paragraph: `we shows only the best websites, portfolios ans landing pages built completely with passion, simplicity & creativity !`,
   },
 ];
