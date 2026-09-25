@@ -8,3 +8,9 @@ $whiteColor: #fff;
 $mainBackgroundColor: #fff;
 $secondaryBackgroundColor: #999;
 $grayBackgroundColor: #f8f8f8;
+
+@mixin flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
