@@ -35,6 +35,9 @@ section {
 section:nth-child(even) {
   background-color: $grayBackgroundColor;
 }
+section:nth-child(9) {
+  padding-bottom: 0;
+}
 
 .headLine {
   display: flex;

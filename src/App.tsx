@@ -1,4 +1,5 @@
 import Benefits from "./Components/Benefits";
+import Download from "./Components/Download";
 import Header from "./Components/Header";
 import HowItWork from "./Components/HowItWork";
 import Navbar from "./Components/Navbar";
@@ -19,6 +20,7 @@ const App = ({}: IProps) => {
       <Screenshotss />
       <Reviews />
       <Pricing />
+      <Download />
     </div>
   );
 };

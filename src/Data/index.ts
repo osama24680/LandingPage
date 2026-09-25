@@ -28,4 +28,8 @@ export const data: dataTypes[] = [
     head: `Pricing plans`,
     paragraph: `we shows only the best websites, portfolios ans landing pages built completely with passion, simplicity & creativity !`,
   },
+  {
+    head: `Download & install appy now`,
+    paragraph: `we shows only the best websites, portfolios ans landing pages built completely with passion, simplicity & creativity !`,
+  },
 ];

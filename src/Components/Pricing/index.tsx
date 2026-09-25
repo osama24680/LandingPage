@@ -7,8 +7,8 @@ const Pricing = () => {
       <div className="overlayLayer">
         <div className="container">
           <HeadLine
-            head={data[4].head}
-            paragraph={data[4].paragraph}
+            head={data[5].head}
+            paragraph={data[5].paragraph}
             color="white"
           />
           <div className="pricingCards">
