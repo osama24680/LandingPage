@@ -12,4 +12,12 @@ export const data: dataTypes[] = [
     head: `How does it work ?`,
     paragraph: `we shows only the best websites, portfolios ans landing pages built completely with passion, simplicity & creativity !`,
   },
+  {
+    head: `Watch a demo`,
+    paragraph: `we shows only the best websites, portfolios ans landing pages built completely with passion, simplicity & creativity !`,
+  },
+  {
+    head: `Screenshots`,
+    paragraph: `we shows only the best websites, portfolios ans landing pages built completely with passion, simplicity & creativity !`,
+  },
 ];

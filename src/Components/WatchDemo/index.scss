@@ -1,0 +1,37 @@
+@use "../../styles/variables" as *;
+#WatchDemo {
+  height: 70vh;
+  background-image: url("../../assets/bg-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .overlayLayer {
+    background-color: rgba(33, 150, 243, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 100px 0;
+
+    .videoWatch {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+
+      video {
+        width: 100%;
+        max-width: 800px;
+
+        object-fit: cover;
+        object-position: center;
+
+        border-radius: 20px;
+
+        opacity: 0.9;
+      }
+    }
+  }
+}
