@@ -1,0 +1,32 @@
+@use "../../styles/variables" as *;
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  box-shadow: 3px 5px 20px;
+  background-color: $whiteColor;
+  .navElements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navList {
+      display: flex;
+      justify-content: space-between;
+      color: $blackColor;
+      li {
+        margin-right: 32px;
+        font-size: 13px;
+        color: $grayColor;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 100px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        &:hover {
+          border-bottom: 3px solid green;
+        }
+      }
+    }
+  }
+}
