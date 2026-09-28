@@ -1,20 +1,12 @@
 @use "../../styles/variables" as *;
 header {
-  height: 100vh;
   background-image: url("../../assets/bg-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   .overlayLayer {
     background-color: rgba(33, 150, 243, 0.5);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     .headerContent {
-      height: 100vh;
       padding-top: 105px;
       display: flex;
       justify-content: space-between;
@@ -65,6 +57,33 @@ header {
         display: flex;
         justify-content: flex-end;
         width: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  header {
+    .overlayLayer {
+      .headerContent {
+        flex-wrap: wrap;
+        .headerContentText {
+          width: 100%;
+          h1 {
+            font-size: 38px;
+            line-height: 50px;
+          }
+          p {
+            font-size: 18px;
+            line-height: 25px;
+          }
+          form {
+            padding-bottom: 30px;
+          }
+        }
+        .headerContentImage {
+          display: none;
+        }
       }
     }
   }
