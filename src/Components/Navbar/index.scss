@@ -1,10 +1,10 @@
 @use "../../styles/variables" as *;
 nav {
   position: fixed;
-  // left: 0;
-  // right: 0;
+  left: 0;
+  right: 0;
   z-index: 2;
-  // box-shadow: 3px 5px 20px;
+  box-shadow: 3px 5px 20px;
   background-color: $whiteColor;
   .navElements {
     display: flex;
@@ -16,19 +16,73 @@ nav {
       color: $blackColor;
       padding: 30px 0;
       li {
-        // margin-right: 32px;
+        margin-right: 15px;
         font-size: 13px;
         color: $grayColor;
         text-transform: uppercase;
         font-weight: 700;
-        // line-height: 100px;
         margin-bottom: 5px;
         border-bottom: 3px solid transparent;
-        // display: none;
         cursor: pointer;
         &:hover {
           border-bottom: 3px solid $materialBlue500;
           color: $materialBlue500;
+        }
+      }
+    }
+    .navIcon {
+      display: none;
+      cursor: pointer;
+      svg {
+        font-size: 25px;
+        color: $materialBlue500;
+      }
+      .closeIcon {
+        color: red;
+      }
+    }
+  }
+  .mobilNavElements {
+    .navList {
+      li {
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        cursor: pointer;
+        &:hover {
+          border-bottom: 3px solid $materialBlue500;
+          color: $materialBlue500;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  nav {
+    .navElements {
+      padding: 15px 0;
+      .navList {
+        padding: 30px 0;
+        display: none;
+      }
+      .navIcon {
+        display: block;
+      }
+    }
+    .mobilNavElements {
+      // display: block;
+      padding-top: 30px;
+      .navList {
+        li {
+          margin-bottom: 15px;
+          text-transform: uppercase;
+          padding-bottom: 5px;
+          cursor: pointer;
+          &:hover {
+            border-bottom: 3px solid $materialBlue500;
+            color: $materialBlue500;
+          }
         }
       }
     }
