@@ -11,12 +11,12 @@ const Navbar = () => {
           <ul className="navList">
             <li>Home</li>
             <li>Feature</li>
-            <li>Video</li>
+            {/* <li>Video</li>
             <li>Screenshots</li>
             <li>Review</li>
             <li>Reviews</li>
             <li>Pricing</li>
-            <li>Download</li>
+            <li>Download</li> */}
           </ul>
         </div>
       </div>

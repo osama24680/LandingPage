@@ -10,3 +10,14 @@
     }
   }
 }
+@media (max-width: 991px) {
+  #Screenshotss {
+    .ScreenshotssImages {
+      flex-wrap: wrap;
+      img {
+        width: 48%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

@@ -49,3 +49,43 @@
     }
   }
 }
+
+@media (max-width: 1260px) {
+  #Reviews {
+    .allReviews {
+      flex-wrap: wrap;
+      .review {
+        width: 100%;
+        padding: 30px;
+        font-size: 18px;
+        margin-bottom: 40px;
+        div {
+          margin-top: 10px;
+        }
+        &:hover {
+          background-color: $materialBlue500;
+          color: $whiteColor;
+          div {
+            p {
+              transform: scale(1.2);
+            }
+            .stars {
+              transform: scale(1.2);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  #Reviews {
+    .allReviews {
+      .review {
+        padding: 20px;
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

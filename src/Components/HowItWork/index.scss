@@ -39,3 +39,41 @@
     }
   }
 }
+
+@media (max-width: 991px) {
+  #HowItWork {
+    .howImage {
+      margin: 20px;
+    }
+    .howSteps {
+      margin-top: 50px;
+      flex-wrap: wrap;
+
+      .howStepsItem {
+        width: 48%;
+        margin-bottom: 50px;
+
+        h3 {
+          font-size: 25px;
+          margin-bottom: 7px;
+        }
+        p {
+          font-size: 15px;
+        }
+      }
+      .howStepsItem:nth-child(3) {
+        margin: auto;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  #HowItWork {
+    .howSteps {
+      .howStepsItem {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
